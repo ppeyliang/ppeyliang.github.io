@@ -1,0 +1,8 @@
+.section-portfolio {
+    padding: 10rem 6rem;
+    background-color: $color-grey-light;
+
+    @include respond(phone) {
+        padding: 8rem 3rem;
+    }
+}
